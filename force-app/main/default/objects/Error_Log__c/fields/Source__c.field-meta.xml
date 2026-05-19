@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Subject__c</fullName>
-    <description>Brief description of the compliance task</description>
+    <fullName>Source__c</fullName>
+    <description>Source system or integration that generated this log entry</description>
     <externalId>false</externalId>
-    <inlineHelpText>Enter a descriptive title for the compliance task</inlineHelpText>
-    <label>Subject</label>
-    <length>255</length>
+    <inlineHelpText>Enter the name of the integration or external system that created this log</inlineHelpText>
+    <label>Source</label>
+    <length>100</length>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

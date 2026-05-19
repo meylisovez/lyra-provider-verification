@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>First_Name__c</fullName>
+    <description>Provider&apos;s first name for verification purposes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the provider&apos;s legal first name as it appears on their credentials</inlineHelpText>
     <label>First Name</label>
-    <description>Provider's first name for verification purposes</description>
-    <inlineHelpText>Enter the provider's legal first name as it appears on their credentials</inlineHelpText>
-    <type>Text</type>
     <length>80</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
 </CustomField>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Status__c</fullName>
-    <description>Current status of the compliance task</description>
-    <inlineHelpText>Tracks task progress: New (not started), In Progress (being worked on), or Completed (finished)</inlineHelpText>
-    <label>Status</label>
+    <fullName>Error_Type__c</fullName>
+    <label>Error Type</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
@@ -13,19 +11,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>New</fullName>
-                <default>true</default>
-                <label>New</label>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration</label>
             </value>
             <value>
-                <fullName>In Progress</fullName>
+                <fullName>DML</fullName>
                 <default>false</default>
-                <label>In Progress</label>
+                <label>DML</label>
             </value>
             <value>
-                <fullName>Completed</fullName>
+                <fullName>Processing</fullName>
                 <default>false</default>
-                <label>Completed</label>
+                <label>Processing</label>
             </value>
         </valueSetDefinition>
     </valueSet>

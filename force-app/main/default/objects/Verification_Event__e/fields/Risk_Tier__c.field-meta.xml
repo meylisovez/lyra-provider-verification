@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Risk_Tier__c</fullName>
-    <label>Risk Tier</label>
     <description>Risk tier classification from the verification process</description>
+    <externalId>false</externalId>
     <inlineHelpText>Indicates the risk level assigned during verification</inlineHelpText>
-    <type>Text</type>
-    <length>20</length>
     <isFilteringDisabled>false</isFilteringDisabled>
     <isNameField>false</isNameField>
     <isSortingDisabled>false</isSortingDisabled>
+    <label>Risk Tier</label>
+    <length>20</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
 </CustomField>
